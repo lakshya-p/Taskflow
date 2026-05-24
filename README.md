@@ -249,28 +249,3 @@ cd backend
 DATABASE_URL="your-production-url" npx prisma migrate deploy
 ```
 
-## Screenshots
-
-Add screenshots here after deploying or running locally:
-
-- Login/register screen
-- Workspace/project/task dashboard
-- Activity log panel
-
-## Resume Bullet Mapping
-
-This project directly supports:
-
-> Built a backend-heavy project management platform with secure REST APIs for user authentication, workspace management, role-based access control, task assignment, status tracking, and activity logging using Node.js, Express, and PostgreSQL.
-
-and:
-
-> Optimized backend performance with Redis caching, indexed database queries, pagination, input validation, and centralized error handling; containerized services with Docker and structured the codebase into scalable service, controller, and repository layers.
-
-## Future Improvements
-
-- Email-based invitations instead of immediate add-by-email.
-- Audit log export.
-- Background jobs for reminders and overdue task notifications.
-- OpenAPI generation.
-- E2E browser tests for the demo dashboard.
